@@ -13,13 +13,13 @@
 
 1. Para realizar uma pesquisa e salvar os resultados no banco de dados:
    ```bash
-   python main.py --pesquisar "termo de pesquisa" --quantidade 10
+   python main.py --pesquisar termo de pesquisa --quantidade 10
    ```
    Onde `--pesquisar` define os termos de pesquisa e `--quantidade` define o número de produtos a ser pesquisado (padrão: 10).
 
 2. Para exportar os resultados da pesquisa atual para um arquivo Excel:
    ```bash
-   python main.py --pesquisar "termo de pesquisa" --quantidade 10 --exportar nome_do_arquivo
+   python main.py --pesquisar termo de pesquisa --quantidade 10 --exportar nome_do_arquivo
    ```
    Onde `--exportar` define o nome do arquivo Excel onde os resultados da sessão atual serão salvos.
 
@@ -58,7 +58,7 @@
 
 4. Execute o aplicativo:
    ```bash
-   python main.py --pesquisar "notebook" --quantidade 5
+   python main.py --pesquisar notebook --quantidade 5
    ```
 
 ## Estrutura do Projeto
